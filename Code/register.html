@@ -1,0 +1,192 @@
+
+<html>
+	<head>
+		<title>Car Rental System</title>
+		<style>
+			body{
+				background:url("car.png");
+				background-size: cover;
+				color: white;
+     				margin:0;
+				
+				}		
+			#header{
+				display: flex;
+				height: 100px;
+				
+				align-items: center;
+				
+				}
+			ul li{
+				display: inline-block;
+				margin: 0px 30px;
+				
+				}
+			ul li:hover{
+				background: rgba(237, 35, 42);
+				<!--padding-top:7px;
+				padding-bottom:7px;
+				padding-right:4px;
+				padding-left:4px;-->
+				
+					}
+			
+			ul{
+				height: 30px;
+				background: rgba(0, 76, 143);
+				padding-top: 10px;
+				width: 100%;
+				margin-left:3%;
+				margin-right:30%; 
+				
+				}
+			#logo{
+				margin-left:3%;
+				margin-top:2%;
+				}
+			#body{
+				height: 500px;
+				
+				background: rgba(255, 255, 255, 0.2);
+				}
+			#box{
+				height:350px;
+				width:350px;
+				border:2px solid white;
+				background:rgba(0,0,0,0.5);
+				border-radius:30px;
+				margin-top:30px;
+				}
+			#footer{
+				display: flex;
+				height:250px;
+				background: rgba(0, 0, 0, 0.4);
+			
+				}
+			#contact{
+				height: 250px;
+				width: 50%;
+				}
+			#branches{
+				height: 250px;
+				width: 50%;
+				}
+			
+			#mail{
+				width: 30%; 
+				display: flex; 
+				align-items: center;
+				
+				}
+			#whatsapp{
+				width: 30%; 
+				display: flex; 
+				align-items: center;
+				
+				}
+			a{
+				color: white;
+				text-decoration: none;
+				font-family:verdana;
+				}
+			p{
+				margin:20px;
+ 				font-size:20px;
+				font-family:garamond;
+				}
+			h2 b{
+				margin:30px;
+ 				font-size:50px;
+				
+				}	
+				
+			
+		</style>
+	</head>
+	<body>
+			<div id="header">
+				<image id="logo" src="logo1.webp" height="100" >
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="login.html">Customer</a></li>
+                                        <li><a href="emplogin.html">Company</a></li>
+				</ul>
+				
+			</div>
+			<div id="body">
+				<center>
+					<div id="box">
+						<h1>Registration</h1>
+                                                <form action="RegisterAction.jsp">
+						<table>
+							
+							<tr>
+							   <th>Username</th>
+                                                           <td><input type="text" name="Username" placeholder="enter name" style="border-radius:30px; height:30px;  width:180px;"></td>
+							</tr>
+                                                        <tr>
+							   <th>Password</th>
+                                                           <td><input type="text" name="Password" placeholder="Password" style="border-radius:30px; height:30px;  width:180px;"></td>
+							</tr>
+							<tr>
+							   <th>Phone No</th>
+                                                           <td ><input type="text" name="Phone_No" placeholder="mobile no" style="border-radius:30px; height:30px;  width:180px;"></td>
+							</tr>
+                                                        <tr>
+							<th>Email Id</th>
+                                                        <td ><input type="text" name="Email_Id" placeholder="email id" style="border-radius:30px; height:30px;width:180px;"></td>
+							</tr>
+                                                        <tr>
+							<th>Aadhar No</th>
+                                                        <td ><input type="text" name="Aadhar_No" placeholder="enter aadhar no" style="border-radius:30px; height:30px;  width:180px;"></td>
+							</tr>
+							<tr>
+							
+							
+							
+							
+						</table>
+                                                    <center><button style="width:90%; height:45px;background:rgba(0, 76, 143,0.6); border-radius: 10px; margin-top: 10px; color:white;">Register</button></center>
+                                                </form>
+
+												   
+						
+					</div>
+				</center>
+				
+			</div>
+			<div id="footer">
+				<div id="contact">
+					<center><h2>Contact Us</h2>
+					<div id="mail" style="">
+					<image src="mail.png" width="40" height="40" style="">
+					<h4>carZ@gmail.com</h4>
+					
+
+
+
+					</div>
+					<div id="whatsapp">
+						<image src="whatsapp.jpeg" width="40" height="40">
+						<h4>+91123456789</h4>
+					</div>
+					</center>
+
+
+
+				</div>
+				<div id="branches">
+					<center><h2>Branches</h2></center>
+					<center><h4>Hyderabad</h4></center>
+					<center><h4>Mumbai</h4></center>
+					<center><h4>Bangalore</h4></center>
+					<center><h4>Karnataka</h4></center>
+					
+				</div>
+				<!--<div id="Links">
+					<center><h3>Links</h3></center>
+				</div>-->
+			</div>
+		
+	</body>
+</html>
